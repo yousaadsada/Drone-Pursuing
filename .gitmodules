@@ -1,0 +1,12 @@
+[submodule "src/apriltag_ros"]
+	path = src/apriltag_ros
+	url = https://github.com/yousaadsada/apriltag_ros.git
+[submodule "src/detectron2"]
+	path = src/detectron2
+	url = https://github.com/yousaadsada/detectron2.git
+[submodule "src/opencv"]
+	path = src/opencv
+	url = https://github.com/yousaadsada/opencv.git
+[submodule "src/opencv_contrib"]
+	path = src/opencv_contrib
+	url = https://github.com/yousaadsada/opencv_contrib.git
