@@ -1,0 +1,8 @@
+geometry_msgs/Point32 front_top_left
+geometry_msgs/Point32 front_top_right
+geometry_msgs/Point32 front_bottom_right
+geometry_msgs/Point32 front_bottom_left
+geometry_msgs/Point32 rear_top_left
+geometry_msgs/Point32 rear_top_right
+geometry_msgs/Point32 rear_bottom_right
+geometry_msgs/Point32 rear_bottom_left

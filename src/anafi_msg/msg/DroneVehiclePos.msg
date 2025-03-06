@@ -1,0 +1,2 @@
+geometry_msgs/Vector3 drone_position
+geometry_msgs/Vector3 vehicle_position

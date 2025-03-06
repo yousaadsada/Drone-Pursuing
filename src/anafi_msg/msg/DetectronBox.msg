@@ -1,0 +1,4 @@
+geometry_msgs/Point32 top_left
+geometry_msgs/Point32 top_right
+geometry_msgs/Point32 bottom_right
+geometry_msgs/Point32 bottom_left

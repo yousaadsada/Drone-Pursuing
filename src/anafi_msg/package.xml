@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>anafi_msg</name>
+  <version>0.0.0</version>
+  <description>Package for custom message definitions for Anafi drone operations.</description>
+  <maintainer email="yousa@todo.todo">yousa</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+
+  <!-- Package dependencies -->
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rosidl_typesupport_fastrtps_c</depend>
+  <depend>rosidl_typesupport_fastrtps_cpp</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Group membership -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- Export information -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
