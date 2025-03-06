@@ -1,0 +1,36 @@
+# ROS2 build and install directories
+build/
+install/
+log/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode settings (if you use VSCode)
+.vscode/
+
+# JetBrains IDE settings (optional)
+.idea/
+
+# ROS2 workspace files
+*.swp
+*.bak
+*.tmp
+
+# CMake temporary files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+Makefile
+
+# ROS2 .launch.py and .yaml config files (keep if needed)
+*.launch.py
+*.yaml
+
+# Other OS-specific files
+.DS_Store
+Thumbs.db
