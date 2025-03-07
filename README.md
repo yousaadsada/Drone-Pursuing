@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/75198e3d-f4f3-42eb-8cb0-6d54497a4115
+
 # 🚁 **Drone Pursuit with PID, MPC, and YOLOv8**
 
 The code includes both PID and MPC algorithms for guiding the drone to the reference point. Additionally, it utilizes YOLOv8 to estimate the 3D pose of the target drone, enabling precise pursuit during flight.
@@ -13,15 +15,20 @@ The code includes both PID and MPC algorithms for guiding the drone to the refer
 ---
 
 ## **Installation**
-
-> It is recommended to use a `conda` virtual environment.
-
 ```bash
-conda create -n drone_env python=3.9
-conda activate drone_env
 pip install -r requirements.txt
-pip install -e .
+```
 
+## **Train YOLO Model**
+```bash
+python src/tracking_parrot/tracking_parrot/train_drone_yolo_2d/train.py
+python src/tracking_parrot/tracking_parrot/train_drone_yolo_3d/train.py
+```
 
-https://github.com/user-attachments/assets/75198e3d-f4f3-42eb-8cb0-6d54497a4115
+## **Run Drone Pursuit**
+```bash
+colcon build --packages-select tracking_parrot
+source install/setup.bash
+ros2 launch tracking_parrot pursuer_launch_yolo.py
+```
 
