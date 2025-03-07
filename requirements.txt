@@ -1,0 +1,23 @@
+# ROS2 Python interface
+rospy
+
+# Olympe SDK for Parrot Anafi
+olympe
+
+# PyTorch (with CUDA support)
+torch==2.0.0+cu118
+torchvision==0.15.1+cu118
+torchaudio==2.0.1+cu118
+-f https://download.pytorch.org/whl/cu118
+
+# CasADi for MPC
+casadi
+
+# YOLOv8 and related dependencies
+yolov8
+
+# Additional Python libraries
+numpy
+opencv-python
+scipy
+matplotlib
