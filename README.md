@@ -7,12 +7,16 @@ ROS Version: ROS2 Humble
 CUDA: 11.5 or above (for GPU acceleration)
 Python: 3.8 or above
 
-📦 Dependencies Installation
-1️⃣ Install ROS2 Humble
+Dependencies Installation
+
+1.Install ROS2 Humble
+
 Official Guide: https://docs.ros.org/en/humble/Installation.html
 
-2️⃣ Install Olympe SDK (for Parrot Anafi)
+2.Install Olympe SDK (for Parrot Anafi)
+
 Using pip:
+
 pip install olympe
 
 3️⃣ Install CUDA (Recommended: 11.5 or above)
